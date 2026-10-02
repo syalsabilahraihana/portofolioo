@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio - Raihana Syalsabilah</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Icon Tab -->
+  <link rel="icon" href="foto.jpeg">
+
+  <style>
+    html { scroll-behavior: smooth; }
+
+    section {
+      scroll-margin-top: 70px;
+      padding-top: 40px;
+    }
+
+    .foto-profil {
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      transition: 0.3s;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#beranda">Raihana</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuUtama">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menuUtama">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+        <li class="nav-item"><a class="nav-link" href="#proyek">Proyek</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="beranda" class="bg-primary text-white text-center py-5">
+  <div class="container py-4">
+    <h1 class="fw-bold">Halo, saya Raihana Syalsabilah</h1>
+    <p class="lead">Mahasiswa Teknik Komputer yang sedang belajar pengembangan web</p>
+  </div>
+</header>
+
+<!-- TENTANG -->
+<section id="tentang" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Tentang Saya</h2>
+
+    <div class="row align-items-center g-4">
+      <div class="col-md-6 text-center">
+        <img src="foto.jpeg"
+             alt="Foto profil Raihana Syalsabilah mahasiswa Teknik Komputer"
+             class="rounded-circle foto-profil shadow">
+      </div>
+
+      <div class="col-md-6">
+        <h3>Raihana Syalsabilah</h3>
+        <p class="text-muted">Mahasiswa Teknik Komputer</p>
+
+        <p>
+          Saya adalah mahasiswa yang tertarik dalam pengembangan website.
+          Saat ini saya sedang mempelajari HTML, CSS, dan Bootstrap
+          untuk membuat tampilan web yang responsif dan user-friendly.
+        </p>
+
+        <a href="#kontak" class="btn btn-primary">Hubungi Saya</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROYEK -->
+<section id="proyek" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Keahlian & Proyek</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5>Desain Web Responsif</h5>
+            <p>Membuat website yang tampil baik di HP, tablet, dan laptop.</p>
+          </div>
+          <div class="card-footer bg-white border-0">
+            <span class="badge text-bg-primary">Bootstrap</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5>Website Profil</h5>
+            <p>Membuat halaman profil pribadi sederhana dan rapi.</p>
+          </div>
+          <div class="card-footer bg-white border-0">
+            <span class="badge text-bg-success">HTML & CSS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5>Dasar JavaScript</h5>
+            <p>Memahami logika dasar seperti percabangan dan perulangan.</p>
+          </div>
+          <div class="card-footer bg-white border-0">
+            <span class="badge text-bg-warning">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="py-5 text-center">
+  <div class="container">
+    <h2 class="mb-3">Kontak</h2>
+
+    <p>Email:
+      <a href="mailto:syalsabilahraihana@gmail.com" target="_blank">
+        syalsabilahraihana@gmail.com
+      </a>
+    </p>
+
+    <p>Instagram:
+      <a href="https://instagram.com/raisybll" target="_blank">
+        @raisybll
+      </a>
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3">
+  <small>Raihana Syalsabilah — NIM 2405112005</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
